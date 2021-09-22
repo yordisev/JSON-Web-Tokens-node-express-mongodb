@@ -1,0 +1,9 @@
+npm init -y
+npm i express mongoose jsonwebtoken bcryptjs
+
+npm install nodemon -D
+
+
+se actualiza el package.json
+
+y se correo el npm run dev
