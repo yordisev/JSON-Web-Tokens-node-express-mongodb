@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/basedatos', {
+mongoose.connect('mongodb://localhost/basedatosejemplo', {
     useNewUrlparser: true
 })
 
