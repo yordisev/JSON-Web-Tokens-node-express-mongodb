@@ -12,4 +12,8 @@ useresquema.methods.encriptarpassword = async(password) => {
     return bcrypt.hash(password, salt);
 }
 
+useresquema.methods.validatepassword = function (password) {
+    return bcrypt.compare(password, this.password);
+}
+
 module.exports = model('user', useresquema);
